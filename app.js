@@ -50,9 +50,10 @@ app.post("/",function(req,res){
         run()
       });
        
-      app.post("/success",function(req,res){
+      app.post("/failure",function(req,res){
         res.redirect("/");
       })
+
       
      
 
